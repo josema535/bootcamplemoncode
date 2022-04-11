@@ -68,7 +68,7 @@ Me encanta la bash!!
 ***
 # Resolución
 
-Para volcar el contenido de file1.txt en file2.txt y teniendo en cuenta que file2 está vacio , podríamos hacerlo del siguiente modo:
+Para volcar el contenido de file1.txt en file2.txt y teniendo en cuenta que file2 está vacio y que nos encontramos en el direcctorio "dummy" , podríamos hacerlo del siguiente modo:
 
     cat file1.txt > file2.txt
 
@@ -81,6 +81,17 @@ Una vez volcado el contenido de file1 en file2 , vamos a proceder a moverlo a la
     mv file2.txt ../empty/
 
 
+##  Ejercicio 3
+***
+Crear un script de bash que agrupe los pasos de los ejercicios anteriores y además permita establecer el texto de file1.txt alimentándose como parámetro al invocarlo.
+
+Si se le pasa un texto vacío al invocar el script, el texto de los ficheros, el texto por defecto será:
+
+Que me gusta la bash!!!!
+
+
+***
+# Resolución
 
 
 
