@@ -1,6 +1,6 @@
 # Ejercicios del módulo 1 - Fundamentos de linux.
 
-##  Resolucion del ejercicio 1
+##  Ejercicio 1
 ***
 Crea mediante comandos de bash la siguiente jerarquía de ficheros y directorios.
 
@@ -48,7 +48,25 @@ Para crear el fichero "file2.txt" usaré el comando touch , que crea el fichero 
     touch file2.txt
 
 
+##  Ejercicio 2
+***
+Mediante comandos de bash, vuelca el contenido de file1.txt a file2.txt y mueve file2.txt a la carpeta empty.
 
+El resultado de los comandos ejecutados sobre la jerarquía anterior deben dar el siguiente resultado.
+
+    foo/
+    ├─ dummy/
+    │  ├─ file1.txt
+    ├─ empty/
+        ├─ file2.txt
+
+Donde file1.txt y file2.txt deben contener el siguiente texto:
+
+Me encanta la bash!!
+
+
+***
+# Resolución
 
 
 
