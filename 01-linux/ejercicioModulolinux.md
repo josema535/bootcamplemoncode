@@ -68,6 +68,14 @@ Me encanta la bash!!
 ***
 # Resolución
 
+Para volcar el contenido de file1.txt en file2.txt y teniendo en cuenta que file2 está vacio , podríamos hacerlo del siguiente modo:
+
+    cat file1.txt > file2.txt
+
+de este modo el contenido de file2 sería sobreescrito. Si quisieramos añadirlo sin perder el contenido de file2.txt , usariamos la siguiente instrucción:
+
+    cat file1.txt >> file2.txt
+
 
 
 
