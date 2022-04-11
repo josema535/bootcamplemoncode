@@ -76,6 +76,11 @@ de este modo el contenido de file2 sería sobreescrito. Si quisieramos añadirlo
 
     cat file1.txt >> file2.txt
 
+Una vez volcado el contenido de file1 en file2 , vamos a proceder a moverlo a la carpeta empty, usaremos la siguiente instrucción , teniendo en cuenta que nos encontramos en el directorio "dummy" de la estructura:
+
+    mv file2.txt ../empty/
+
+
 
 
 
