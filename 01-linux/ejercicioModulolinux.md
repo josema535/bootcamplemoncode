@@ -94,6 +94,9 @@ Que me gusta la bash!!!!
 # Resolución
 
 Adjunto en el repositorio se encuentra el fichero ejercicio3.sh que desarrolla el scrip de este ejercicio.
+He tenido en cuenta la asignacion de permisos de ejecución , que he asignado con el comando:
+
+    chmod +x ejercicio3.sh
 
 
 
