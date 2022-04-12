@@ -13,4 +13,4 @@ echo Fin ejercicio 1
  cd ./foo/dummy
  cat file1.txt > file2.txt
  mv file2.txt ../empty/
- 
+ echo Fin del ejercicio 2
